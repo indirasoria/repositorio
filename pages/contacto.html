@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="contacto" content="contacto" />
+    <meta
+      name="keywords"
+      content="html, programacion, desarrollo web, frontend, backend"
+    />
+    <title>Bruxx</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav__hero">
+        <div class="container-fluid container nav__container">
+          <div class="logo">
+            <h2 class="logo__name">
+              Escuela Digital <span class="span">Bruxx</span>
+            </h2>
+          </div>
+          <div class="links">
+            <a href="../index.html" class="link"></a>
+            <a href="../pages/inicio.html" class="link">Inicio</a>
+            <a href="../pages/qsomos.html" class="link">Quiénes somos</a>
+            <a href="../pages/contacto.html" class="link link--active"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </nav>
+      <section class="container hero__main">
+        <div class="hero__textos">
+          <h1 class="title">¡Bienvenidos a <span class="span">Bruxx</span>!</h1>
+          <p class="copy">La escuela digital más grande de Puerto Rico.</p>
+        </div>
+        <img src="../imagenes/pag.jpg" alt="" class="pag" />
+      </section>
+    </header>
+    <footer class="footer">
+      <br />
+      <div class="container-fluid bg-light border-0 center-block">
+        <div class="row w-75 mx-auto">
+          <div class="col">
+            <div class="form-group bg-light">
+              <label for="full_name_id" class="control-label"
+                >Nombre y Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="full_name_id"
+                name="full_name"
+                placeholder="Nombre Completo"
+              />
+            </div>
+
+            <div class="form-group bg-light">
+              <label for="street1_id" class="control-label">Dirección</label>
+              <input
+                type="text"
+                class="form-control"
+                id="street1_id"
+                name="street1"
+                placeholder="Calle, numeración, altura"
+              />
+            </div>
+
+            <div class="form-group bg-light">
+              <label for="street2_id" class="control-label"
+                >Correo Electrónico</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="street2_id"
+                name="street2"
+                placeholder="Gmail, hotmail, yahoo"
+              />
+            </div>
+
+            <div class="form-group bg-light">
+              <label for="city_id" class="control-label">Teléfono</label>
+              <input
+                type="text"
+                class="form-control"
+                id="city_id"
+                name="city"
+                placeholder="Número de contacto"
+              />
+            </div>
+            <div class="form-group bg-light">
+              <label for="state_id" class="control-label">País</label>
+              <select class="form-control" id="state_id">
+                <option value="AL">Afganistán</option>
+                <option value="AK">Albania</option>
+                <option value="WY">Alemania</option>
+                <option value="AZ">Argelia</option>
+                <option value="AR">Andorra</option>
+                <option value="CA">Angola</option>
+                <option value="CO">Anguilla</option>
+                <option value="CT">Argentina</option>
+                <option value="DE">Armenia</option>
+                <option value="DC">Aruba</option>
+                <option value="FL">Australia</option>
+                <option value="GA">Austria</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Azerbaijan</option>
+                <option value="IL">Bahamas</option>
+                <option value="IN">Barbados</option>
+                <option value="IA">Bélgica</option>
+                <option value="KS">Bermuda</option>
+                <option value="KY">Bolivia</option>
+                <option value="LA">Brasil</option>
+                <option value="ME">Bulgaria</option>
+                <option value="MD">Canada</option>
+                <option value="MA">Chile</option>
+                <option value="MI">China</option>
+                <option value="MN">Cocos</option>
+                <option value="MS">Costa Rica</option>
+                <option value="MO">Cuba</option>
+                <option value="MT">Croacia</option>
+                <option value="NE">Dinamarca</option>
+                <option value="NV">República Dominicana</option>
+                <option value="NH">Ecuador</option>
+                <option value="NJ">Egipto</option>
+                <option value="NM">El Salvador</option>
+                <option value="NY">Etiopía</option>
+                <option value="NC">Finlandia</option>
+                <option value="ND">Francia</option>
+                <option value="OH">Guayana Francesa</option>
+                <option value="OK">Grecia</option>
+                <option value="OR">Guatemala</option>
+                <option value="PA">Groenlandia</option>
+                <option value="RI">Haiti</option>
+                <option value="SC">Honduras</option>
+                <option value="SD">Hong Kong</option>
+                <option value="TN">Hungría</option>
+                <option value="TX">India</option>
+                <option value="UT">Indonesia</option>
+                <option value="VT">Iran</option>
+                <option value="VA">Irak</option>
+                <option value="WA">Israel</option>
+                <option value="WV">Italia</option>
+                <option value="WI">Jamaica</option>
+                <option value="WY">Japón</option>
+                <option value="WY">Kenia</option>
+                <option value="WY">Korea</option>
+                <option value="WY">Liberia</option>
+                <option value="WY">Luxemburgo</option>
+                <option value="WY">Maldivas</option>
+                <option value="WY">México</option>
+                <option value="WY">Nueva Zelanda</option>
+                <option value="WY">Nigeria</option>
+                <option value="WY">Noruega</option>
+                <option value="WY">Nicaragua</option>
+                <option value="WY">Panamá</option>
+                <option value="WY">Paraguay</option>
+                <option value="WY">Perú</option>
+                <option value="WY">Polonia</option>
+                <option value="WY">Portugal</option>
+                <option value="WY">Puerto Rico</option>
+                <option value="WY">Qatar</option>
+                <option value="WY">Rumanía</option>
+                <option value="WY">Santa Lucía</option>
+                <option value="WY">Arabia Saudita</option>
+                <option value="WY">Senegal</option>
+                <option value="WY">Serbia</option>
+                <option value="WY">Singapur</option>
+                <option value="WY">Eslovaquia</option>
+                <option></option>
+                <option value="WH">Eslovenia</option>
+                <option value="WY">Estados Unidos</option>
+                <option value="WY">Sudáfrica</option>
+                <option value="WY">Suecia</option>
+                <option value="WY">Suiza</option>
+                <option value="WY">Taiwan</option>
+                <option value="WY">Turquía</option>
+                <option value="WY">Ucrania</option>
+                <option value="WY">Uruguay</option>
+                <option value="WY">Venezuela</option>
+                <option value="WY">Vietnam</option>
+                <option value="WY">Yemen</option>
+                <option value="WY">Zambia</option>
+              </select>
+            </div>
+            <div class="form-group bg-light">
+              <label for="zip_id" class="control-label">Código Postal</label>
+              <input
+                type="text"
+                class="form-control"
+                id="zip_id"
+                name="zip"
+                placeholder="#####"
+              />
+            </div>
+            <br />
+            <div class="form-group bg-light text-center">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="contact">
+        <div class="item__contact">
+          <i class="bx bx-copyright contact__icon"></i>
+          <h3 class="contact__title">Bruxx</h3>
+        </div>
+        <div class="item__contact">
+          <i class="bx bx-mail-send contact__icon"></i>
+          <h3 class="contact__title">escueladigitalbruxx@gmail.com</h3>
+        </div>
+        <div class="item__contact">
+          <i class="bx bxs-direction-right contact__icon"></i>
+          <h3 class="contact__title">Libertad 439, San Juan, Puerto Rico</h3>
+        </div>
+        <div class="item__contact">
+          <i class="bx bxl-whatsapp contact__icon"></i>
+          <h3 class="contact__title">Contáctanos</h3>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
