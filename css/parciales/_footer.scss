@@ -1,3 +1,4 @@
+@import "./variables";
 .footer{
     background: #fafafa;
 
@@ -24,7 +25,7 @@
     }
     .footer__copy{
         width: 100%;
-        color: var(--black2);
+        color: $black2;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -45,7 +46,7 @@
       display: flex;
       padding: 18px 12px;
       border-radius: 6px;
-      border: 1px solid var(--black2);
+      border: 1px solid $black2;
       width: 15%;
       align-items: center;
       margin-right: 20px;
@@ -93,7 +94,7 @@ text-decoration: underline;
 .socialmedia{
     margin-top: 24px;
     display: flex;
-    color: var(--black2);
+    color: $black2;
     justify-content: center;
     margin: 10px;
 
@@ -105,7 +106,7 @@ text-decoration: underline;
 }
 
 .socialmedia__legend{
-    color: var(--black2);
+    color: $black2;
     margin-right: 16px;
 
 }
@@ -123,13 +124,13 @@ text-decoration: underline;
     color: #fff;
     padding: 60px 0;
     text-align: center;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, $black2 0%, $black1) 100%);
 
 }
 
 .contact__icon{
     font-size: 14px;
-    color: var(--gold1);
+    color: $gold1;
     line-height: 20px;
     margin-right: 4px;
 }

@@ -1,3 +1,4 @@
+@import "./variables";
 .hero{
     width: 100%;
     min-height: 100vh;
@@ -32,12 +33,12 @@
 }
 
 .link--active{
-    color: var(--gold2);
+    color: $gold2;
     font-weight: 400;
 }
 
 .span{
-    color: var(--gold1);
+    color: $rosita;
 }
 
 .hero__main{
@@ -60,13 +61,13 @@
     color: #fff;
 
 .title--active{
-    color: var(--gold1);
+    color: $gold1;
     font-weight: 700;
 }
 
 .copy{
     font-size: 24px;
     color: var(--gray);
-    text-shadow: var(--shadow) var(--color_shadow);
+    text-shadow: $shadow, $color_shadow;
     margin: 15px 0;
 }

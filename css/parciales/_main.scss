@@ -1,3 +1,4 @@
+@import "./variables";
 .services{
     background: #fafafa;
 }
@@ -7,7 +8,7 @@
 }
 
 .copy__section{
-    color: var(--black2);
+    color: $black1;
     font-size: 30px;
     line-height: 32px;
     margin-bottom: 60px;
@@ -48,12 +49,12 @@
     width: 30%;
     padding: 30px 0;
     overflow: hidden;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, $black2 0%, $black1 100%);
     border-radius: 10px;
     position: relative;
     text-align: right;
     margin-bottom: 60px;
-    box-shadow: 0 0 6px var(--color_shadow);
+    box-shadow: 0 0 6px $color_shadow;
 
 
 .card__img{
@@ -70,7 +71,7 @@
 }
 
 .card__list{
-    color: var(--gold2);
+    color: $gold2;
     font-weight: 700;
     margin: 25px 0 12px;
     font-size: 18px;
@@ -84,7 +85,7 @@
 }
 
 .card__copy{
-    color: var(--gray2);
+    color: $gray2;
     margin-bottom: 16px;
 
 }
@@ -95,14 +96,14 @@
     border-radius: 6px;
     text-decoration: none;
     width: 100%;
-    color: var(--gold2);
+    color: $gold2;
     font-weight: 400;
     text-align: center;
     padding: 12px 0;
 }
 
 .card__date{
-    color: var(--gold2);
+    color: $gold2;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 16px;
@@ -159,7 +160,7 @@ margin-bottom: 60px;
 .testimony__card{
     width: 30%;
     height: 500px;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, $black2 0%, $black1 100%);
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;   
@@ -178,11 +179,11 @@ margin-bottom: 60px;
     bottom: 20px;
     left: 5%;
     width: 90%;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, $black2 0%, $black1 100%);
     color: #fff;
     margin: 0 auto;
     border-radius: 10px;
-    box-shadow: var(--shadow) var(--color_shadow);
+    box-shadow: $shadow, $color_shadow;
     padding: 15px 8px;
     display: flex;
     align-items: center;
@@ -206,7 +207,7 @@ display: inline-block;
 
 
 .testimony__position{
-    color: var(--gray);
+    color: $gray;
 }
 
 .testimony__text{
@@ -250,11 +251,11 @@ margin: 0 auto;
     width: 30%;
     padding-right: 10px;
     display: flex;
-    border-right: 2px solid var(--black2);
+    border-right: 2px solid $black2;
 }
 
 .bxs-check-circle{
-background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+background: linear-gradient(180deg, $black2 0%,$black1 100%);
 display: inline-block;
 width: 40px;
 height: 40px;
@@ -298,7 +299,7 @@ font-size: 40px;
     outline: none;
     font-family: inherit;
     border-radius: 6px;
-    border: 1px solid var(--black1);
+    border: 1px solid $black1;
 }
 
 .newsletter__submit{
@@ -306,7 +307,7 @@ font-size: 40px;
     right: 8px;
     top: 10%;
     height: 80%;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, $black2 0%, $black1, 100%);
     color: #fff;
     padding: 0 15px;
     border: none;
