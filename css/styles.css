@@ -631,9 +631,6 @@ font-size: 40px;
         }
     }
 
-.form-group .bg-light{
-    text-align: center;
-}
     @media screen and (max-width:700px){
         main .container,
         footer .container{
@@ -744,7 +741,7 @@ font-size: 40px;
     }
 
     @media  screen and {max-width:500px){
-        .pag{
+        .pag {
             width: 80%;
             margin-bottom: 15px;
         }
